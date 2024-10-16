@@ -1,0 +1,122 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background-color: #e63946; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central do texto */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding */
+}
+
+nav ul li {
+    display: inline; /* Itens em linha */
+    margin: 0 15px; /* Margem entre os itens */
+}
+
+nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Texto em negrito */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+nav a:hover {
+    color: #f1faee; /* Cor dos links ao passar o mouse */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    margin: 0; /* Remove margem */
+}
+
+h2 {
+    color: #1d3557; /* Cor dos subtítulos */
+}
+
+h3 {
+    color: #457b9d; /* Cor dos títulos menores */
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Esconde conteúdo que sai dos limites */
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    transition: background-color 0.3s; /* Transição suave para o fundo */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo ao passar o mouse */
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; /* Espaçamento do texto */
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin: 20px; /* Margem entre seções */
+    background-color: white; /* Cor de fundo das seções */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px 0; /* Espaçamento interno */
+    background-color: #e63946; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    position: relative; /* Para o posicionamento correto */
+    bottom: 0; /* Para ficar sempre na parte inferior */
+    width: 100%; /* Para ocupar toda a largura */
+}
